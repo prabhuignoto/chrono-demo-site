@@ -3,9 +3,8 @@ import styled from '@emotion/styled';
 const ModeWrapper = styled.div`
   width: 100%;
   position: relative;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   border-radius: 10px;
-  padding: 1.5rem 0;
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -50,11 +49,13 @@ export const ComponentContainer = styled.div<{ type?: string }>`
   ${p => {
     switch (p.type) {
       case "desktop":
-        return `height: 300px; width: 90%;`
+        return `height: 300px; width: 750px;`;
       case "big-screen":
-        return `height: 450px; width: 90%;`
+        return `height: 450px; width: 850px;`;
       case "tablet":
-        return `height: 380px; width: 100%;`
+        return `height: 380px; width: 650px;`;
+      case "mobile":
+        return `height: 650px; width: 420px;`;
       default:
         break;
     }
@@ -71,13 +72,13 @@ export const ComponentContainerTree = styled.div<{ type?: string }>`
   ${p => {
     switch (p.type) {
       case "desktop":
-        return `height: 600px; width: 90%;`
+        return `height: 600px; width: 750px;`
       case "big-screen":
-        return `height: 850px; width: 90%;`
+        return `height: 850px; width: 950px;`
       case "tablet":
-        return `height: 850px; width: 100%;`
+        return `height: 850px; width: 650px;`
       case "mobile":
-        return `height: 650px; width: 100%;`
+        return `height: 650px; width: 420px;`
       default:
         break;
     }

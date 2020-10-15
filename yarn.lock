@@ -8762,31 +8762,17 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
-react-chrono@^1.2.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.2.2.tgz#8d4086a172270d7e59e3856d430bd5604cc658ec"
-  integrity sha512-QbJ8qESFTdTYHi4F7MCKiQl2h5c82v6cQqhT7XxHRW62tNYkr6NOvkdYumLzXJqmYl77LC4L8MjDJ5mOsVXxfw==
-  dependencies:
-    "@emotion/core" "^10.0.35"
-    "@emotion/styled" "^10.0.27"
-    nanoid "^3.1.12"
-    react "^16.13.1"
-    react-chrono "^1.2.0"
-    react-dom "^16.13.1"
-    react-responsive "^8.1.0"
-
-react-chrono@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.2.4.tgz#7a00f9854701b526726383502d67254e79c1bbf6"
-  integrity sha512-Vp6kU7Bl02S2bTTCM4mAnxzUvlvk6F6W0ah8q8VQvjkca8IA1BglOYX+FMSYA5OVSQF8+UH1tEIDoyb+y/R0kw==
+react-chrono@^1.2.4, react-chrono@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.2.5.tgz#4a71c4fb4fb7063f1f307b386618bbbf97654db6"
+  integrity sha512-qjn44if/UYYlQrBtoc27vdzR6lblmmDHdK9h8Opw3rZssGwu1qdZ9iMp+yfbP6sIwRj5lGksMcowvWV715ocSg==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
     nanoid "^3.1.12"
     react "^16.14.0"
-    react-chrono "^1.2.0"
+    react-chrono "^1.2.4"
     react-dom "^16.14.0"
-    react-responsive "^8.1.0"
 
 react-dev-utils@^10.2.1:
   version "10.2.1"
@@ -8818,7 +8804,7 @@ react-dev-utils@^10.2.1:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
-react-dom@^16.13.1, react-dom@^16.14.0:
+react-dom@^16.14.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
   integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
@@ -8908,7 +8894,7 @@ react-scripts@3.4.3:
   optionalDependencies:
     fsevents "2.1.2"
 
-react@^16.13.1, react@^16.14.0:
+react@^16.14.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
