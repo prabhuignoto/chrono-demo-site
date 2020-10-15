@@ -52,7 +52,7 @@ export const ComponentContainer = styled.div<{ type?: string }>`
       case "desktop":
         return `width: 90%;`;
       case "big-screen":
-        return `width: 1200px;`;
+        return `width: 70%;`;
       case "tablet":
         return `width: 650px;`;
       case "mobile":
