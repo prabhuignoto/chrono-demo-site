@@ -10,10 +10,14 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "chrono": "^1.0.5",
     "react": "^16.14.0",
+    "react-chrono": "^1.2.3",
     "react-dom": "^16.14.0",
+    "react-responsive": "^8.1.0",
     "react-scripts": "3.4.3",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-responsive": "^8.0.2",
+    "@types/webfontloader": "^1.6.32"
   }
 }
