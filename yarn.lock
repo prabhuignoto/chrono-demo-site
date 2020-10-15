@@ -8775,10 +8775,10 @@ react-chrono@^1.2.0:
     react-dom "^16.13.1"
     react-responsive "^8.1.0"
 
-react-chrono@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.2.3.tgz#0358a3ee08078ec86345e79e18f54417090fdbd4"
-  integrity sha512-6f4f/CFdjyqSQBbYowu9WGedjNngwF+JltjTJ4QcsuOvWM8F27EL4N/jk+ev+PwpirQjFtiQr7seDAq9d1E29w==
+react-chrono@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.2.4.tgz#7a00f9854701b526726383502d67254e79c1bbf6"
+  integrity sha512-Vp6kU7Bl02S2bTTCM4mAnxzUvlvk6F6W0ah8q8VQvjkca8IA1BglOYX+FMSYA5OVSQF8+UH1tEIDoyb+y/R0kw==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
