@@ -55,11 +55,11 @@ const NewDemo: React.FunctionComponent = () => {
 
   useEffect(() => {
     if (type === "desktop") {
-      setCardHeight(250);
+      setCardHeight(300);
     } else if (type === "big-screen") {
-      setCardHeight(400);
+      setCardHeight(450);
     } else if (type === "tablet") {
-      setCardHeight(260);
+      setCardHeight(350);
     } else {
       setCardHeight(200);
     }
@@ -108,7 +108,6 @@ const NewDemo: React.FunctionComponent = () => {
               <Chrono
                 items={items}
                 mode="HORIZONTAL"
-                cardHeight={300}
                 slideShow
                 slideItemDuration={1500}
               />

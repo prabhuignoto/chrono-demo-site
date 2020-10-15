@@ -8762,10 +8762,22 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
-react-chrono@^1.2.4, react-chrono@^1.2.5:
+react-chrono@^1.2.4:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.2.5.tgz#4a71c4fb4fb7063f1f307b386618bbbf97654db6"
   integrity sha512-qjn44if/UYYlQrBtoc27vdzR6lblmmDHdK9h8Opw3rZssGwu1qdZ9iMp+yfbP6sIwRj5lGksMcowvWV715ocSg==
+  dependencies:
+    "@emotion/core" "^10.0.35"
+    "@emotion/styled" "^10.0.27"
+    nanoid "^3.1.12"
+    react "^16.14.0"
+    react-chrono "^1.2.4"
+    react-dom "^16.14.0"
+
+react-chrono@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.2.7.tgz#c19e181c5c3d52c85a5e73c42f4ffdb762e62d9b"
+  integrity sha512-eLyQPCKOZ2ZCstZ2j+wf3wzdvycTGbrz5ZRBpJXL17xJfPCZZMeFsqojdDsUYowg3hd8n3LMiA8zlJs5l5N+gA==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"

@@ -40,24 +40,25 @@ export const ComponentContainer = styled.div<{ type?: string }>`
   border-radius: 4px;
   margin: 0 auto;
   margin-bottom: 1rem;
-  padding: 1rem 0;
+  padding: 1rem;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: column; 
+  flex-direction: column;
+  background: #f4f4f4;
 
   ${p => {
     switch (p.type) {
       case "desktop":
-        return `height: 450px; width: 750px;`;
+      return `height: 520px; width: 750px;`;
       case "big-screen":
-        return `height: 450px; width: 850px;`;
+      return `height: 550px; width: 850px;`;
       case "tablet":
-        return `height: 380px; width: 650px;`;
+      return `height: 650px; width: 650px;`;
       case "mobile":
-        return `height: 650px; width: 420px;`;
+      return `height: 650px; width: 420px;`;
       default:
-        break;
+      break;
     }
   }}
 `;
@@ -68,6 +69,7 @@ export const ComponentContainerTree = styled.div<{ type?: string }>`
   margin: 0 auto;
   margin-top: 1rem;
   padding: 1rem 0;
+  background: #f4f4f4;
 
   ${p => {
     switch (p.type) {
