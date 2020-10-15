@@ -24,7 +24,7 @@ export const Wrapper = styled.div<{ show: boolean, type?: string }>`
     } else if (p.type === "big-screen") {
       return "1350px"
     } else if (p.type === "desktop") {
-      return "75%"
+      return "85%"
     } else if (p.type === "mobile") {
       return "100%";
     } else {
@@ -45,20 +45,20 @@ export const ComponentContainer = styled.div<{ type?: string }>`
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  background: #f4f4f4;
+  background: #f9f9f9;
 
   ${p => {
     switch (p.type) {
       case "desktop":
-      return `height: 520px; width: 750px;`;
+        return `width: 90%;`;
       case "big-screen":
-      return `height: 550px; width: 850px;`;
+        return `width: 1200px;`;
       case "tablet":
-      return `height: 650px; width: 650px;`;
+        return `width: 650px;`;
       case "mobile":
-      return `height: 650px; width: 420px;`;
+        return `width: 420px;`;
       default:
-      break;
+        break;
     }
   }}
 `;
@@ -69,16 +69,16 @@ export const ComponentContainerTree = styled.div<{ type?: string }>`
   margin: 0 auto;
   margin-top: 1rem;
   padding: 1rem 0;
-  background: #f4f4f4;
+  background: #f9f9f9;
 
   ${p => {
     switch (p.type) {
       case "desktop":
-        return `height: 600px; width: 750px;`
+        return `height: 600px; width: 90%;`
       case "big-screen":
-        return `height: 850px; width: 950px;`
+        return `height: 850px; width: 1200px;`
       case "tablet":
-        return `height: 850px; width: 650px;`
+        return `height: 850px; width: 90%;`
       case "mobile":
         return `height: 650px; width: 420px;`
       default:
