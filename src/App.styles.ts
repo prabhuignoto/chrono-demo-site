@@ -23,7 +23,7 @@ export const Wrapper = styled.div<{ show: boolean, type?: string }>`
     if (p.type === "tablet") {
       return "100%";
     } else if (p.type === "big-screen") {
-      return "1400px"
+      return "1350px"
     } else if (p.type === "desktop") {
       return "80%"
     } else if (p.type === "mobile") {
