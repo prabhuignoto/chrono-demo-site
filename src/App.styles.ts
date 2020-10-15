@@ -102,6 +102,7 @@ export const LogoWrapper = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 0.5rem;
 `;
 
 export const LogoImage = styled.img`
