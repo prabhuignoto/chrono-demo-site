@@ -108,8 +108,6 @@ const NewDemo: React.FunctionComponent = () => {
               <Chrono
                 items={items}
                 mode="HORIZONTAL"
-                slideShow
-                slideItemDuration={1500}
               />
             </ComponentContainer>
           </Horizontal>
