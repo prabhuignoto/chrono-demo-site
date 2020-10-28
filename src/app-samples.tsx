@@ -74,7 +74,7 @@ export const VerticalTree: FunctionComponent<{
     <ComponentContainerTree type={type}>
       <Chrono
         items={items}
-        mode="TREE"
+        mode="VERTICAL_ALTERNATING"
         slideShow
         slideItemDuration={2000}
         // theme={{ primary: "#8675a9", secondary: "#ffd5cd" }}
@@ -109,7 +109,7 @@ export const VerticalTreeMixed: FunctionComponent<{
     <ComponentContainerTree type={type}>
       <Chrono
         items={dataMixed as any[]}
-        mode="TREE"
+        mode="VERTICAL_ALTERNATING"
         cardHeight={cardHeight}
         theme={{ primary: "#8675a9", secondary: "#ffd5cd" }}
       />
