@@ -4794,6 +4794,11 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
+focus-visible@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/focus-visible/-/focus-visible-5.2.0.tgz#3a9e41fccf587bd25dcc2ef045508284f0a4d6b3"
+  integrity sha512-Rwix9pBtC1Nuy5wysTmKy+UjbDJpIfg8eHjw0rjZ1mX4GNLz1Bmd16uDpI3Gk1i70Fgcs8Csg2lPm8HULFg9DQ==
+
 follow-redirects@^1.0.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.10.0.tgz#01f5263aee921c6a54fb91667f08f4155ce169eb"
@@ -8768,15 +8773,15 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
-react-chrono@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.4.1.tgz#a1a8ce3b004a8fc8cb3d79eb1dba54dd1761bba2"
-  integrity sha512-tKMkTdET1LAXUzvP/GvKNN/TwHxhKqnWxN/QiVBl20C4TzXcwt/SOTuLLIKDCSOLI5CKqto5AdkzqWkJX53D5g==
+react-chrono@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.5.0.tgz#0e267a3af59145510de14d1faa736de4804f5c46"
+  integrity sha512-8KMPkkXGEynA8k17mjuNkMdQDB+ZEU8dible4svqPqOhJb3vyVjHa6OGxTv+n4zDY2VrtGfgAhMo0wtlRzdFrQ==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
+    focus-visible "^5.2.0"
     nanoid "^3.1.16"
-    use-debounce "^5.0.1"
 
 react-dev-utils@^10.2.1:
   version "10.2.1"
@@ -10504,11 +10509,6 @@ url@^0.11.0:
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
-
-use-debounce@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/use-debounce/-/use-debounce-5.0.1.tgz#b11861bc63970bfc6fd8393a0a3cc3d7cb5944ce"
-  integrity sha512-YHzlVa7qKFRlrMpVRiStGWGE0lumwJiQPvsTMlatsIrck39ycyJkdf0npUYG5MJEVxaJQWwvpmePRYZb534upg==
 
 use@^3.1.0:
   version "3.1.1"

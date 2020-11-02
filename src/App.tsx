@@ -43,11 +43,11 @@ const NewDemo: React.FunctionComponent = () => {
 
   useEffect(() => {
     const newItems = data.map(
-      ({ title, contentTitle, contentText, contentDetailedText }) => ({
+      ({ title, cardTitle, cardSubtitle, cardDetailedText }) => ({
         title,
-        contentTitle,
-        contentText,
-        contentDetailedText,
+        cardTitle,
+        cardSubtitle,
+        cardDetailedText,
       })
     );
     setItems(newItems);
@@ -57,9 +57,9 @@ const NewDemo: React.FunctionComponent = () => {
     if (type === "desktop") {
       setCardHeight(260);
     } else if (type === "big-screen") {
-      setCardHeight(450);
+      setCardHeight(250);
     } else if (type === "tablet") {
-      setCardHeight(350);
+      setCardHeight(300);
     } else {
       setCardHeight(200);
     }
