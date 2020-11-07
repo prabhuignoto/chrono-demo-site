@@ -16,14 +16,7 @@ const Features: React.FunctionComponent = () => (
         </span>
         &nbsp;&nbsp;Render timelines in three different modes (
         <a href="#horizontal">Horizontal</a>,&nbsp;
-        <a href="#vertical"> Vertical</a>,&nbsp; <a href="#tree"> Tree</a>).
-      </Feature>
-      <Feature>
-        <span className="icon" role="img" aria-label="tree">
-          🌲
-        </span>
-        &nbsp;Use the <a href="#tree">Tree mode</a> to layout timeline cards
-        vertically in a tree like fashion.
+        <a href="#vertical"> Vertical</a>,&nbsp; <a href="#tree"> Vertical Alternating</a>).
       </Feature>
       <Feature>
         <span className="icon" role="img" aria-label="slideshow">
@@ -53,13 +46,19 @@ const Features: React.FunctionComponent = () => (
         <span className="icon" role="img" aria-label="quick jump">
           🦘
         </span>{" "}
-        Quick jump to the start or end of the timeline with HOME,END keys.
+        Quickly jump to the start or end of the timeline with HOME,END keys.
       </Feature>
       <Feature>
         <span className="icon" role="img" aria-label="keyboard support">
           🔧
         </span>
-        &nbsp; Optimized to only render timeline items that are visible in the containing element (vertical and tree modes).
+        &nbsp; Optimized to only render timeline items that are visible in the containing element (vertical modes).
+      </Feature>
+      <Feature>
+        <span className="icon" role="img" aria-label="keyboard support">
+          ⚡
+        </span>
+        &nbsp; Support for rendering custom content.
       </Feature>
       {/* <Feature>
         <span className="icon" role="img" aria-label="typescript">

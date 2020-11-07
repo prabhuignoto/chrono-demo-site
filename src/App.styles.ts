@@ -45,7 +45,6 @@ export const ComponentContainer = styled.div<{ type?: string }>`
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  background: #f9f9f9;
 
   ${p => {
     switch (p.type) {
@@ -69,7 +68,6 @@ export const ComponentContainerTree = styled.div<{ type?: string }>`
   margin: 0 auto;
   margin-top: 1rem;
   padding: 1rem 0;
-  background: #f9f9f9;
 
   ${p => {
     switch (p.type) {
