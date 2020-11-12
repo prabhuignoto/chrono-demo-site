@@ -9668,10 +9668,10 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
-react-chrono@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.6.1.tgz#5f76040389cf47f6022465dd072346b4f1254f57"
-  integrity sha512-EWmw0y1SmVrK2Ttd5WYkCgj/BJXlqQxutKwTnr9VNIr24nQtciexA/+JUniao+OL+UlL4TyVn+PFxr3CafSQng==
+react-chrono@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.7.3.tgz#78564272827cfda33912b86a0256a89c68bd9176"
+  integrity sha512-cJoh/RYA5oc88C3KmOkdQGlh+LaJaHX2FH3YZRQ1KEMYFVpycWR1zk6P33+ejugyGQitdRFsI+t2pj5FcS1vmw==
   dependencies:
     "@emotion/core" "^10.1.1"
     "@emotion/styled" "^10.0.27"
